@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="pslider.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script href="pslider.js" type="text/javascript"></script>
+    
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      /// some script
+      
+      // jquery ready start
+      $(document).ready(function() {
+        // jQuery code
+      
+        //////////////////////// Prevent closing from click inside dropdown
+          $(document).on('click', '.dropdown-menu', function (e) {
+            e.stopPropagation();
+          });
+          
+        
+      }); // jquery end
+      </script>
+      
+    
+    <title>główna</title>
+
+   
+  </head>
+  <body>
+    <div class="container-fluid" style="text-align: center;">
+      <!-- HEAD -->
+      <div class="row" style="position: fixed; width: 100%; z-index: 9999; background: white; box-shadow: 0 0 20px #888;">
+        
+        <div class="col-md-2 col-sm-2 col-xs-2">
+            <button class="buttons"><a  href="index.html"><i class="fa fa-home"></i></a></button>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-2">
+          <!-- MENU -->
+          <ul class="navbar-nav">
+              <button class="buttons dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i></button>
+                <div class="dropdown-menu megamenu" role="menu">
+                              <div class="container">
+                                  <div class="col-md-3">
+                                      <div class="col-megamenu">
+                                        <h4 class="title">ONA</h4>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                        </ul>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="col-megamenu">
+                                      <h4 class="title">ON</h4>
+                                          <ul class="list-unstyled">
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="col-megamenu">
+                                      <h4 class="title">AKCESORIA</h4>
+                                          <ul class="list-unstyled">
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>    
+                                  <div class="col-md-3">
+                                    <div class="col-megamenu">
+                                      <h4 class="title">NOWOŚCI</h4>
+                                          <ul class="list-unstyled">
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                            <li><a href="#">Spódnice</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                  </div>
+              </li>
+            </ul>
+      </div>
+        <div class="col-md-4 col-sm-4 col-md-offset-3 col-xs-4"><br>
+          <div class="collapse navbar-collapse">
+            <div class="input-group">
+              <input type="text" class="form-control" size="60" placeholder="Szukaj produktu...">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-2 col-xs-2">
+          <button class="buttons"><a href="login.html"><i class="fa fa-user"></i></a></button>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-2">
+          <button class="buttons"><i class="fa fa-shopping-cart"></i></button>
+        </div>
+      </div>
+      <div class="content">
+      <br><br><br>
+      <!--MID1-->
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <main class="main-content">
+            <section class="slideshow">
+              <div class="slideshow-inner">
+                <div class="slides">
+                  <div class="slide is-active ">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">STYL</div>
+                        <div class="collapse navbar-collapse">
+                        <div class="text">
+                          <p>Pokaż styl!</p>
+                        </div> 
+                        </div>
+                        <br><br><a href="#" class="btn">
+                          <span class="btn-inner">Zobacz więcej</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container"> 
+                      <img src="marcin1.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">KLASA</div>
+                        <div class="collapse navbar-collapse">
+                        <div class="text">
+                          <p>Pokaż klasę!</p>
+                        </div> 
+                        </div>
+                        <br><br><a href="#" class="btn">
+                          <span class="btn-inner">Zobacz więcej</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container">
+                      <img src="marcin2.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">WDZIĘK</div>
+                        <div class="collapse navbar-collapse">
+                        <div class="text">
+                          <p>Pokaż wdzięk!</p>
+                        </div> 
+                        </div>
+                        <br><br><a href="#" class="btn">
+                          <span class="btn-inner">Zobacz więcej</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container">
+                      <img src="marcin3.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-content">
+                      <div class="caption">
+                        <div class="title">Zmysłowość</div>
+                        <div class="collapse navbar-collapse">
+                        <div class="text">
+                          <p>Pokaż zmysłowość!</p>
+                        </div> 
+                        </div>
+                        <br><br><a href="#" class="btn">
+                          <span class="btn-inner">Zobacz więcej</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="image-container"> 
+                      <img src="marcin4.jpg" alt="" class="image" />
+                    </div>
+                  </div>
+                </div>
+                <div class="pagination">
+                  <div class="item is-active"> 
+                    <span class="icon">1</span>
+                  </div>
+                  <div class="item">
+                    <span class="icon">2</span>
+                  </div>
+                  <div class="item">
+                    <span class="icon">3</span>
+                  </div>
+                  <div class="item">
+                    <span class="icon">4</span>
+                  </div>
+                </div>
+                <div class="arrows">
+                  <div class="arrow prev">
+                    <span class="svg svg-arrow-left">
+                      <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+                      <span class="alt sr-only"></span>
+                    </span>
+                  </div>
+                  <div class="arrow next">
+                    <span class="svg svg-arrow-right">
+                      <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+                      <span class="alt sr-only"></span>
+                    </span>
+                  </div>
+                </div>
+              </div> 
+            </section>
+          </main>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="./script.js"></script>
+        </div>
+      </div>
+      <!-- MID2 -->
+      <div class="row">
+        <div class="col-md-2 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xs-5 series">
+          <img src="najman.jpg" width="100%">
+          <div class="mainbtn"><span class="mainbtn-inner">DLA NIEGO</span></div>
+        </div>
+        <div class="col-md-2 col-sm-5 col-xs-5 series" >
+          <img src="najman.jpg" width="100%">
+          <div class="mainbtn"><span class="mainbtn-inner">DLA NIEJ</span></div>
+        </div>
+      <!-- NEWSLETTER -->
+        <div class="col-md-6 col-sm-10 col-sm-offset-1 col-xs-offset-1 col-xs-10 newsletter">
+          <h6>NOWOŚCI | TRENDY | PROMOCJE</h6>
+          <h3><b>Zapisz się do newslettera</b>
+            <div class="collapse navbar-collapse"> 
+              już teraz!<br>          
+              i zgarnij -15% na zakupy online</div></h3><br>
+          <!--FORMULARZ-->
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="inputEmail1" placeholder="Wpisz adres e-mail">            
+            </div>
+            <div id="checkbox1">            
+              <label>
+                <input type="checkbox" checked="checked"> AKCEPTUJĘ WARUNKI NEWSLETTERA
+              </label>
+            </div>
+            <div id="button1">
+              <button type="submit" class="submit1">ZAPISZ SIĘ</button>           
+            </div>
+            </form>
+          </form>
+        </div>
+      </div>
+
+      <!-- PSLIDER -->
+          <div class="container-fluid" style="background-color: rgb(245, 245, 245);">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0"> 
+
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class="row">
+                      
+                      <div class="col-md-3 col-sm-6 col-xs-6">                       
+                        <div class="thumb-wrapper">                        
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div>                      
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Sony Headphone</h4>
+                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                          </div>						
+                        </div>
+                      </div>
+                      
+                      
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Sony Headphone</h4>
+                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                          </div>						
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Macbook Air</h4>
+                            <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                          </div>						
+                        </div>
+                      </div>		
+
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Nikon DSLR</h4>
+                            <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                          </div>						
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="row">
+                      
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Sony Headphone</h4>
+                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                          </div>						
+                        </div>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Sony Headphone</h4>
+                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                          </div>						
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Macbook Air</h4>
+                            <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                          </div>						
+                        </div>
+                      </div>		
+                      						
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Nikon DSLR</h4>
+                            <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                          </div>						
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="row">
+                      
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Sony Headphone</h4>
+                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                          </div>						
+                        </div>
+                      </div>
+                      
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Sony Headphone</h4>
+                            <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                          </div>						
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Macbook Air</h4>
+                            <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                          </div>						
+                        </div>
+                      </div>		
+                      						
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="thumb-wrapper">
+                          <div class="img-box products">
+                            <img src="pnajman.jpg" class="img-responsive" alt="">     
+                            <div class="mainbtn"><span class="mainbtn-inner">DODAJ DO KOSZYKA</span></div> 
+                          </div>
+                          <div class="thumb-content">
+                            <h4>Nikon DSLR</h4>
+                            <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                          </div>						
+                        </div>                     
+                      </div>
+                    </div>
+                  </div>
+
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                </a>
+              </div>
+              </div>
+
+          
+          <!-- ADBANER -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="widenajman.jpg" style="width: 100%">
+            </div>
+          </div>
+          <br><br>
+        <!-- FOOTER -->
+        <div class="footer">
+          <div class="row" style="border-top: solid 3px red">
+            <br>
+            <div class="col-md-3 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+              <br><h3><b>Pepega.</b></h3>
+              <h6>Pepega © 2020 Wszelkie prawa zastrzeżone</h6>
+            </div>
+            <div class="col-md-2 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+              <h5>Polityka prywatności</h5>
+              <h6><a>Polityka prywatności</a></h6>
+              <h6><a>Polityka cookies</a></h6>
+              <h6><a>Ustawienia powiadomień</a></h6>
+              <h6><a>Zaufani partnerzy</a></h6>
+            </div>
+            <div class="col-md-2 col-sm-5 col-xs-5">
+              <h5>Pomoc</h5>
+                <h6><a>Regulamin</a></h6>
+                <h6><a>FAQ - często zadawane pytania</a></h6>
+                <h6><a>Tabela rozmiarów</a></h6>
+                <h6><a>Karty podarunkowe</a></h6>
+                <h6><a>Reklamacje</a></h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+              <h5>Śledź nas</h5>
+              <button class="buttons"><i class="fa fa-facebook"></i></button>
+              <button class="buttons"><i class="fa fa-twitter"></i></button>
+              <button class="buttons"><i class="fa fa-youtube"></i></button>
+              <button class="buttons"><i class="fa fa-instagram"></i></button>
+            </div>
+            <div class="col-md-3 col-md-offset-5 col-sm-5 col-xs-10 col-xs-offset-1">
+              <h5>Skontaktuj się z nami</h5>             
+              <div id="button1" style="text-align: left;">
+                <button type="submit" class="submit1">FORMULARZ KONTAKTOWY</button>           
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    -->
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="slideshow.js"></script>
+  </body>
+</html>
